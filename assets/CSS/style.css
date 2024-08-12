@@ -1,0 +1,49 @@
+#ele1 {
+  background-color: green;
+  font-size: 20px;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 50px;
+  column-gap: 0;
+  justify-items: center;
+  align-items: center;
+}
+.cajas {
+  height: 200px;
+  width: 200px;
+}
+
+#key {
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 35%;
+  background-color: white;
+  border: solid 2px black;
+}
+.nuevo {
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 35%;
+  background-color: white;
+  border: solid 2px black;
+}
+#new {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+#Roja {
+  background-color: red;
+}
+#Azul {
+  background-color: blue;
+}
+#Verde {
+  background-color: green;
+}
+#Amarilla {
+  background-color: yellow;
+}
